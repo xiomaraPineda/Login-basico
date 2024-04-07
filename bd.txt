@@ -1,0 +1,11 @@
+create table loginCrud2 (
+	id int identity(1,1) primary key,
+	cedula int,
+	nombre varchar(100) not null,
+	apellido varchar(100) not null,
+	correo varchar (100) not null,
+	contrasena varchar (30) not null
+);
+
+INSERT INTO loginCrud2 (cedula,nombre,apellido,correo,contrasena) 
+VALUES (1001546025,'xiomara','marin','xiomaram@gmail.com','123gh')
